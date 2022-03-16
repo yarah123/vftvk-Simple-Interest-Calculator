@@ -1,4 +1,36 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    display: block;
+    text-align: justify;}
+
+h1{
+    color:grey;
+    font-family:verdana;
+    text-align: center;}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;}
+
+select {        
+    align-items: left;
+    margin-left: 150px;}
+
+#principal {            
+    margin-left: 180px;}/* move input box */
+
+#rate {                 
+    margin-left: 200px; /* move rate bar  */
+    margin-top:10px;
+    height: 10px;       /* height of the bar */
+    border-radius: 10px;/* circular edges of the bar  */
+    cursor: pointer; }  /* cursor as pointer */
+
+input{margin-top:10px;}
 
 
